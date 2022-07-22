@@ -66,7 +66,7 @@ function goDown(){
     fight();
     tresor();
     if(v =isFrozen(v.x,v.y+1)){
-        goUp();
+        goDown();
     }
 }
 
@@ -83,7 +83,7 @@ function goRight(){
     fight();
     tresor();
     if(v =isFrozen(v.x+1,v.y)){
-        goUp();
+        goRight();
     }
 }
 
@@ -100,7 +100,7 @@ function goLeft(){
     fight();
     tresor();
     if(v =isFrozen(v.x-1,v.y)){
-        goUp();
+        goLeft();
     }
 }
 
